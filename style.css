@@ -32,6 +32,7 @@ li > div > p {
     overflow: scroll;
     width: 400px;
     text-align: left;
+    background-color: rgb(255, 255, 255);
 }
    
 section > ul > li {
@@ -39,19 +40,22 @@ section > ul > li {
     vertical-align: middle;
     margin-top: 15px;
     text-align: left;
+   background-color: rgb(252, 252, 252);
 }
 
 button {
-    background-color: #ddd;
+    background-color: rgb(255, 1, 1);
     border: none;
     color: black;
     padding: 16px 32px;
     font-size: 16px;
     margin: 4px 2px;
     transition: 350ms;
+    font-weight: bolder;
 }
 
 button:hover {
   background-color: blue;
-  color: white;
+  color: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
 }
